@@ -17,7 +17,7 @@ var ImportFile = function(make, load, before){
 
 
 
- var baseUrl = '../../src/'; 
+ var baseUrl = './src/'; 
  var myHtml = [ 
    {make:'headBox',    load:'all/headBox.html'}, 
    // {make:'gnbBox',    load:'all/gnbBox.html'},
