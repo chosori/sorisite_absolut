@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--  drinsList.html -->
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--[if lte IE9]>
+      <script src="../ie/lt-ie-9.min.js"></script>
+  <![endif]-->
+  <!-- fontAwsome and nanumGothicCodingFont -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="../fontAwesome/css/fontawesome.css">
+  <link rel="stylesheet" href="../fonts/absolut/stylesheet.css">
+  <link rel="stylesheet" href="../fonts/transfonterNanum/stylesheet.css">
+  <!-- css Reset and globalClass -->
+  <link rel="stylesheet" href="../css/base/reset.css">
+  <link rel="stylesheet" href="../css/base/common.css">
+  <!-- use css -->
+  <!-- <link rel="stylesheet" href="../css/import/importfile_01.css"> -->
+  <link rel="stylesheet" href="../css/drinsList.css">
+  <!-- faviconFile -->
+   <link rel="alle-tioch-icon" href="../img/favicon.png">
+  <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+  <title>칵테일</title>
+</head>
+<body>
+  <div id="wrap">
+
+    <section id="drinsBox">
+      <h1>Absolut Drinks</h1>
+      <div class="drink_box">
+        <div class="moth">이달의 <br /> 음료</div>
+        <div class="drink_img"><span class="hidden">이달의 음료 이미지</span></div>
+        <p>Black &nbsp; Russian</p>
+      </div>
+    </section>
+
+    <section id="modalBox">
+      <!-- json파일을 이용하여 만들기(js활용하여 data불러오기) -->
+    </section>
+
+    <article id="galleryBox">
+      <p>믹솔로지 배워보기</p>
+      <div class="gallery_btn">
+        <ul class="clearfix">
+          <li><button type="button" data-link="../html/cocktail.html"><span class="hidden">cocktail</span></button></li>
+          <li><button type="button" data-link="../html/shake.html"><span class="hidden">Shake</span></button></li>
+          <li><button type="button" data-link="../html/mixing.html"><span class="hidden">mixing</span></button></li>
+          <li><button type="button" data-link="../html/classic.html"><span class="hidden">classic</span></button></li>
+        </ul>
+      </div>
+
+
+      <div class="gallery_view">
+        <a href="../html/cocktail.html"><span>site</span></a>
+      </div>
+      
+
+    </article>
+
+
+  </div>
+  <!-- script -->
+  <script src="../js/base/jquery.min.js"></script>
+  <script src="../js/base/jquery-ui.min.js"></script>
+  <!-- use script -->
+  <script src="../js/src/base.js"></script>
+  <script src="../js/src/drinsList.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- information.html -->
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--[if lte IE9]>
+      <script src="../ie/lt-ie-9.min.js"></script>
+  <![endif]-->
+  <!-- fontAwsome and nanumGothicCodingFont -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="../fontAwesome/css/fontawesome.css">
+  <link rel="stylesheet" href="../fonts/absolut/stylesheet.css">
+  <link rel="stylesheet" href="../fonts/transfonterNanum/stylesheet.css">
+  <!-- css Reset and globalClass -->
+  <link rel="stylesheet" href="../css/base/reset.css">
+  <link rel="stylesheet" href="../css/base/common.css">
+  <!-- use css -->
+  <!-- <link rel="stylesheet" href="../css/import/importfile_01.css"> -->
+  <link rel="stylesheet" href="../css/information.css">
+  <!-- faviconFile -->
+  <link rel="alle-tioch-icon" href="../img/favicon.png">
+  <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+  <title>회원가입</title>
+</head>
+<body>
+  <div id="wrap">
+   <article id="informationBox" class="clearfix">
+    <div class="every_box">
+      <h1>매주 칵테일 레시피 받아보기</h1>
+      <p>어떤 칵테일을 만들어보고 싶나요?  <br />
+      앱솔루트에서는 칵테일 믹스 노하우가 담긴 바텐더 비법과 함께 매주 새로운 <br /> 칵테일 레시피를 알려드립니다. 지금 가입하세요! 
+      모든 커뮤니케이션은 영어로 이루어짐을 알려드립니다.</p>
+    </div>
+    <form action="#" method="post">
+      <fieldset>
+        <legend class="hidden">레시피 받기</legend>
+        <div class="member_box">
+          <input type="text" id="name" name="name" value="" placeholder="이름이 어떻게 되세요?" autocomplete="off" class="name_box" />
+          <label for="name" class="hidden">name</label>
+
+          <input type="email" id="emailBox" name="emailBox" value="" required placeholder=" 이메일" class="email_box" />
+          <label for="emailBox" class="hidden">email</label>
+
+          <input type="number" id="dayBox" name="dayBox" value="" placeholder="DD" class="day_box" />
+          <label for="dayBox" class="hidden">day</label>
+
+          <input type="number" id="monthBox" name="monthBox" value="" placeholder="MM" class="month_box" />
+          <label for="monthBox" class="hidden">month</label>
+
+          <input type="number" id="yearBox" name="yearBox" value="" placeholder="YYYY" class="year_box" min="1900" max="2018" step="1"
+          maxlength="4" oninput="maxLengthCheck(this)" />
+          <label for="yearBox" class="hidden">year</label>
+
+          <select name="country" id="country" >
+          <optgroup label="country" class="hidden">
+            <option value="korea">KOREA</option>
+            <option value="global">GLOBAL</option>
+            <option value="japan">JAPAN</option>
+          </optgroup>
+        </select> 
+          <div class="remember_box">
+            <input type="checkbox" name="check" id="check" checked="checked" class="hidden">
+           <label for="check" class="check_btn">당사 개인정보보호정책에 동의합니다.</label>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+
+  <div class="member_btn">
+   <a href="../html/after.html">회원가입</a>
+  </div>
+
+  <div class="member_img">
+    <div class="img_box"><span class="hidden">사진</span></div>
+  </div>
+  
+</article>
+
+
+  </div>
+  <!-- script -->
+  <script src="../js/base/jquery.min.js"></script>
+  <script src="../js/base/jquery-ui.min.js"></script>
+  <!-- use script -->
+  <!-- <script src="../js/base/respond.js"></script> -->
+  <script src="../js/src/base.js"></script>
+  <script src="../js/src/information.js"></script>
+    <script>
+    // number(year) maxlength 체크
+   function maxLengthCheck(object){
+    if (object.value.length > object.maxLength){
+     object.value = object.value.slice(0, object.maxLength);
+    }    
+   }
+  </script>
+
+</body>
+</html>
