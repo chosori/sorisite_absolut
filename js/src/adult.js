@@ -21,7 +21,7 @@ var yearCut = nowYear-20;
     window.location = 'https://www.youtube.com/channel/UCPUeGC_AL-OnDQORKhRm6iA';
     //enterBtn.attr({'href':'https://www.youtube.com/channel/UCPUeGC_AL-OnDQORKhRm6iA','target':'_blank'});
    }else{
-    window.location = '../../html/showmain.html';
+    window.location = '../html/showmain.html';
    }
 });
 
