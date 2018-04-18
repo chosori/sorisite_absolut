@@ -1,0 +1,10 @@
+[
+ {"link":"../../html/products.html" , "file":"news_01.png" , "modal_img":"큰이미지 설명 1"},
+ {"link":"../../html/products.html" , "file":"news_02.png" , "modal_img":"큰이미지 설명 2"},
+ {"link":"//www.naver.com" , "file":"news_03.png" , "modal_img":"큰이미지 설명 3"},
+ {"link":"//www.naver.com" , "file":"news_04.png" , "modal_img":"큰이미지 설명 4"},
+ {"link":"//www.naver.com" , "file":"news_05.png" , "modal_img":"큰이미지 설명 5"},
+ {"link":"//www.naver.com" , "file":"news_06.png" , "modal_img":"큰이미지 설명 6"},
+ {"link":"//www.naver.com" , "file":"news_07.png" , "modal_img":"큰이미지 설명 7"},
+ {"link":"//www.naver.com" , "file":"news_08.png" , "modal_img":"큰이미지 설명 8"}
+]
