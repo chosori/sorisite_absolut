@@ -24,7 +24,7 @@
     });
 
 
-      var baseUrl = "../../media/video/";
+      var baseUrl = "../media/video/";
   var videoList = [
                     {title:'cocktail', 
                     videoTitle:'absolut 레시피 영상'},
