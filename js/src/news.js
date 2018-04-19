@@ -276,7 +276,7 @@ var listViewBtn = $('.list_view_btn'), listLBtn = $('.list_view_left_btn'),listR
 
 listViewBtn.children('button').append( $('<i></i>',{class:'fa'}), $('<span></span>',{class:'hidden'}));
 
-var imageUrl = '../../img/';
+var imageUrl = '../img/';
 // background
 listLBtn.css({backgroundImage:'url('+imageUrl+'left.png)',backgroundRepeat:'no-repeat',backgroundColor:'#111',backgroundSize:'100%', backgroundPosition:'center'});
 listRBtn.css({backgroundImage:'url('+imageUrl+'right_btn.png)',backgroundRepeat:'no-repeat',backgroundColor:'#111',backgroundSize:'100%', backgroundPosition:'center'});
@@ -343,8 +343,8 @@ modalBox.append('<div class="list_box"><ul class="clearfix"></ul></div>'); //아
  var modalRight = viewBox.find('.right_btn');
 
  // 5. json파일불러오기(서버구동필수)
-var jsonUrl = '../../js/data/modalImage02.json';
-var baseDir    = '../../img/news/', thumDir = baseDir + 'modal_img/';
+var jsonUrl = '../js/data/modalImage02.json';
+var baseDir    = '../img/news/', thumDir = baseDir + 'modal_img/';
 $.getJSON(jsonUrl,  function(data){ // console.log(data);
   var i          = 0, dataLength = data.length;
   for(; i<dataLength; i++){
@@ -398,7 +398,7 @@ var listViewBtn = $('.list_view_btn'), listLBtn = $('.list_view_left_btn'),listR
 
 listViewBtn.children('button').append( $('<i></i>',{class:'fa'}), $('<span></span>',{class:'hidden'}));
 
-var imageUrl = '../../img/';
+var imageUrl = '../img/';
 // background
 listLBtn.css({backgroundImage:'url('+imageUrl+'left.png)',backgroundRepeat:'no-repeat',backgroundColor:'#111',backgroundSize:'100%', backgroundPosition:'center'});
 listRBtn.css({backgroundImage:'url('+imageUrl+'right_btn.png)',backgroundRepeat:'no-repeat',backgroundColor:'#111',backgroundSize:'100%', backgroundPosition:'center'});
@@ -463,8 +463,8 @@ modalBox.append('<div class="list_box"><ul class="clearfix"></ul></div>'); //아
  var modalRight = viewBox.find('.right_btn');
 
  // 5. json파일불러오기(서버구동필수)
-var jsonUrl = '../../js/data/modalImage02.json';
-var baseDir    = '../../img/news/', thumDir = baseDir + 'modal_img/';
+var jsonUrl = '../js/data/modalImage02.json';
+var baseDir    = '../img/news/', thumDir = baseDir + 'modal_img/';
 $.getJSON(jsonUrl,  function(data){ // console.log(data);
   var i          = 0, dataLength = data.length;
   for(; i<dataLength; i++){
@@ -518,7 +518,7 @@ var listViewBtn = $('.list_view_btn'), listLBtn = $('.list_view_left_btn'),listR
 
 listViewBtn.children('button').append( $('<i></i>',{class:'fa'}), $('<span></span>',{class:'hidden'}));
 
-var imageUrl = '../../img/';
+var imageUrl = '../img/';
 // background
 listLBtn.css({backgroundImage:'url('+imageUrl+'left.png)',backgroundRepeat:'no-repeat',backgroundColor:'#111',backgroundSize:'100%', backgroundPosition:'center'});
 listRBtn.css({backgroundImage:'url('+imageUrl+'right_btn.png)',backgroundRepeat:'no-repeat',backgroundColor:'#111',backgroundSize:'100%', backgroundPosition:'center'});
@@ -584,8 +584,8 @@ modalBox.append('<div class="list_box"><ul class="clearfix"></ul></div>'); //아
  var modalRight = viewBox.find('.right_btn');
 
  // 5. json파일불러오기(서버구동필수)
-var jsonUrl = '../../js/data/modalImage02.json';
-var baseDir    = '../../img/news/', thumDir = baseDir + 'modal_img/';
+var jsonUrl = '../js/data/modalImage02.json';
+var baseDir    = '../img/news/', thumDir = baseDir + 'modal_img/';
 $.getJSON(jsonUrl,  function(data){ // console.log(data);
   var i          = 0, dataLength = data.length;
   for(; i<dataLength; i++){
@@ -639,7 +639,7 @@ var listViewBtn = $('.list_view_btn'), listLBtn = $('.list_view_left_btn'),listR
 
 listViewBtn.children('button').append( $('<i></i>',{class:'fa'}), $('<span></span>',{class:'hidden'}));
 
-var imageUrl = '../../img/';
+var imageUrl = '../img/';
 // background
 listLBtn.css({backgroundImage:'url('+imageUrl+'left.png)',backgroundRepeat:'no-repeat',backgroundColor:'#111',backgroundSize:'100%', backgroundPosition:'center'});
 listRBtn.css({backgroundImage:'url('+imageUrl+'right_btn.png)',backgroundRepeat:'no-repeat',backgroundColor:'#111',backgroundSize:'100%', backgroundPosition:'center'});
